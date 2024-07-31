@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Responsive Layout</title>
+<style>
+
+/********** Base styles **********/
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+div{
+border: 1px solid black;
+background-color:#ffd9da;
+height: 100%;
+margin-left: auto;
+margin-right: auto;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  font-family: Montserrat;
+  color: #89023e;
+}
+
+p {
+  border: 1px solid black;
+  background-color: #ea638c;
+  width: 33%;
+  height: 50px;
+  float: right;
+  padding-top: 10px;
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+  font-family: Montserrat;
+  font-size: 24px;
+  font-weight: 500;
+  color: #89023e;
+}
+
+section {
+	clear:both;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+	}
+
+/* Simple Responsive Framework. */
+.row {
+  width: 100%;
+}
+
+/********** Large devices only **********/
+@media (min-width: 1200px) {
+  .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
+    float: left;
+    
+  }
+  .col-lg-1 {
+    width: 8.33%;
+  }
+  .col-lg-2 {
+    width: 16.66%;
+  }
+  .col-lg-3 {
+    width: 25%;
+  }
+  .col-lg-4 {
+    width: 33.33%;
+  }
+  .col-lg-5 {
+    width: 41.66%;
+  }
+  .col-lg-6 {
+    width: 50%;
+  }
+  .col-lg-7 {
+    width: 58.33%;
+  }
+  .col-lg-8 {
+    width: 66.66%;
+  }
+  .col-lg-9 {
+    width: 74.99%;
+  }
+  .col-lg-10 {
+    width: 83.33%;
+  }
+  .col-lg-11 {
+    width: 91.66%;
+  }
+  .col-lg-12 {
+    width: 100%;
+  }
+}
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+  .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
+    float: left;
+    border: 1px solid black;
+  }
+  .col-md-1 {
+    width: 8.33%;
+  }
+  .col-md-2 {
+    width: 16.66%;
+  }
+  .col-md-3 {
+    width: 25%;
+  }
+  .col-md-4 {
+    width: 33.33%;
+  }
+  .col-md-5 {
+    width: 41.66%;
+  }
+  .col-md-6 {
+    width: 50%;
+  }
+  .col-md-7 {
+    width: 58.33%;
+  }
+  .col-md-8 {
+    width: 66.66%;
+  }
+  .col-md-9 {
+    width: 74.99%;
+  }
+  .col-md-10 {
+    width: 83.33%;
+  }
+  .col-md-11 {
+    width: 91.66%;
+  }
+  .col-md-12 {
+    width: 100%;
+  }
+}
+
+</style>
+</head>
+<body>
+<h1>Hello Darling</h1>
+
+<div id="row">
+  <div class="col-lg-4 col-md-6"><p>Cher</p>
+<section>Cher (/ʃɛər/ SHAIR; born Cherilyn Sarkisian on May 20, 1946) is an American singer, actress, and television personality. Often referred to by the media as the "Goddess of Pop", she has been described as embodying female autonomy in a male-dominated industry. She is known for her distinctive contralto singing voice, for having worked in numerous areas of entertainment and for adopting a variety of styles and appearances. Cher rose to fame in 1965 as one half of the folk rock husband-wife duo Sonny & Cher before releasing her first solo top-ten singles "Bang Bang (My Baby Shot Me Down)" and "You Better Sit Down Kids". Throughout the 1970s, she scored the US Billboard Hot 100 number-one singles "Gypsys, Tramps & Thieves", "Half-Breed", and "Dark Lady", becoming the female solo artist with the most number-one singles in US history at the time.</section>
+  </div>
+  <div class="col-lg-4 col-md-6"><p>Madonna</p>
+  	<section>Madonna Louise Ciccone[a] (/tʃɪˈkoʊni/; born August 16, 1958) is an American singer, songwriter, and actress. Regarded as the "Queen of Pop", she has been recognized for her continual reinvention and versatility in music production, songwriting and visual presentation. Madonna's works, which incorporate social, political, sexual, and religious themes, have generated both controversy and critical acclaim. A cultural icon spanning both the 20th and 21st centuries, the Rock and Roll Hall of Fame called her one of the most "well-documented figures of the modern age" in 2008.[2] Various scholarly reviews, literature, and art works have been created about her along with an academic mini subdiscipline devoted to her called Madonna studies. 
+</section>
+  	</div>
+  <div class="col-lg-4 col-md-12"><p>Dolly</p>
+  	<section>
+  		Dolly Rebecca Parton (born January 19, 1946) is an American singer-songwriter, actress, and philanthropist, known primarily for her decades-long career in country music. After achieving success as a songwriter for others, Parton made her album debut in 1967 with Hello, I'm Dolly, which led to success during the remainder of the 1960s (both as a solo artist and with a series of duet albums with Porter Wagoner), before her sales and chart peak arrived during the 1970s and continued into the 1980s. Some of Parton's albums in the 1990s did not sell as well, but she achieved commercial success again in the new millennium and has released albums on various independent labels since 2000, including her own label, Dolly Records.
+  	</section></div>
+</div>
+
+</body>
+</html>
